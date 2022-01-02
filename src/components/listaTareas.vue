@@ -1,4 +1,6 @@
 <template>
+<div v-if="tareas.length > 0">
+
       <table class="table">
   <thead>
     <tr>
@@ -37,6 +39,10 @@
     </tr>
   </tbody>
 </table>
+</div>
+<div class="alert alert-dark role=alert" v-else>
+No hay tareas agregadas...
+</div>
 </template>
 
 <script>

@@ -6,7 +6,6 @@
     <p>{{ tarea }}</p>
     <lista-tareas></lista-tareas>
 
-
   </div>
 </template>
 
